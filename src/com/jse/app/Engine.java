@@ -8,21 +8,25 @@ public class Engine {
 		Scanner sc = new Scanner(System.in);
 //		선언 위치의 중요성
 		while (true) {
-			System.out.println("[0]종료 [1]가위바위보 [2]주사위 홀짝 게임");
+			System.out.println("[0]종료 [1]가위바위보 [2]주사위 홀짝 게임 [3]1to100");
 			int flag = sc.nextInt();
 			switch (flag) {
 			case 0:
-				System.out.println("종료");
+				System.out.println("시스템이 종료됩니다...");
 				return; // 메서드 종료
 			case 1:
-				System.out.println("가위바위보");
+				RPSgame.game();
 				break; // 일시정지
 			case 2:
 				switchDice();
 				break;
+			case 3:
+				Sum.game();
+				break;
 			}
 		}
 	}
+	//break에 continue를 써도 같은 현상이 일어난다. 이유가 무엇일까?
 
 	static void switchDice() {
 		System.out.println("홀/짝 중 하나만 선택해주세요~");
@@ -55,11 +59,10 @@ public class Engine {
 		System.out.println("컴퓨터 결과 : " + result);
 		String result2 = "";
 		if (answer.equals(result)) {
-			result2 = "맞음";
+			result2 = "딩동댕!";
 		} else {
-			result2 = "틀림";
+			result2 = "틀렸지롱 틀렸지롱";
 		}
 		System.out.println(String.format("결과 : %s ", result2));
 	}
 }
-//break에 continue를 써도 같은 현상이 일어난다. 이유가 무엇일까?

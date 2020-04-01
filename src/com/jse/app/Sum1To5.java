@@ -12,7 +12,7 @@ public class Sum1To5 {
 			System.out.println(i);
 			sum += i;
 //			= overriding
-//			+= overloagind
+//			+= overloaging
 		}
 		System.out.println(String.format("%d", sum));
 	}
