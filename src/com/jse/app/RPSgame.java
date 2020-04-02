@@ -1,5 +1,5 @@
 package com.jse.app;
-
+//서버
 import java.util.Random;
 
 public class RPSgame {
@@ -23,32 +23,8 @@ public class RPSgame {
 	}
 
 	public String game() {
-		String user = "";
-		String com = "";
-		switch (userval) {
-		case 1:
-			user = "가위";
-			break;
-		case 2:
-			user = "바위";
-			break;
-		case 3:
-			user = "보";
-			break;
-		}
-		switch (comval) {
-		case 1:
-			com = "가위";
-			break;
-		case 2:
-			com = "바위";
-			break;
-		case 3:
-			com = "보";
-			break;
-		}
 		String result = "";
-		if (user == com) {
+		if (userval == comval) {
 			result = "무승부!";
 		} else if (userval == 1 && comval == 2) {
 			result = "패배!";

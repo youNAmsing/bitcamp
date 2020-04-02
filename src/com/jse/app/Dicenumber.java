@@ -1,5 +1,5 @@
 package com.jse.app;
-
+//서버
 public class Dicenumber {
 	private String expect;
 	private int dicenum;

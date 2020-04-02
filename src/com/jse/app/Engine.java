@@ -1,5 +1,4 @@
 package com.jse.app;
-
 //		화면
 import java.util.Random;
 import java.util.Scanner;

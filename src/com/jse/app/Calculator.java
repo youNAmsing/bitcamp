@@ -20,7 +20,7 @@ public class Calculator {
 }.
 */
 package com.jse.app;
-
+//서버
 public class Calculator {
 	private int num1;
 	private int num2;

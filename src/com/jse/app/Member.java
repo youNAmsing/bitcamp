@@ -1,5 +1,5 @@
 package com.jse.app;
-
+//서버
 public class Member {
 	private String id; // (동적)멤버변수, 인스턴스변수 --> reference 참조주소
 	// id는 고유하니까..
