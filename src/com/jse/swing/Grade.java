@@ -61,7 +61,7 @@ public class Grade {
 	public String grade() {
 		String grade = "";
 		int average = average();
-		switch(grade) {
+		switch(grade) { // /10해서,,. 
 		case "A":  break;
 
 		
