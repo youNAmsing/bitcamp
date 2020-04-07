@@ -1,6 +1,6 @@
 package com.jse.swing;
 
-public class Member {
+public class MemberBean {
 	private String userid;
 	private String password;
 	private String name;
