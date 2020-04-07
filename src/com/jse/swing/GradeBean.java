@@ -18,7 +18,7 @@ public class GradeBean {
 	private int english;
 	private int math;
 	
-	public GradeBean(String name, int korean, int math, int english) {
+	public GradeBean(String name, int korean, int english, int math) {
 		this.name = name;
 		this.korean = korean;
 		this.english = english;
