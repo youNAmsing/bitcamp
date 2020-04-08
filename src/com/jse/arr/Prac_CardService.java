@@ -1,5 +1,5 @@
 package com.jse.arr;
-//다일개체 : 여러개 받기!
+//다일개체 : 여러개 받기! - 차원 쌓기
 public class Prac_CardService {
 	private CardBean[] cards;
 	private int count;
